@@ -1,0 +1,9 @@
+GUARDANDO CAMBIOS TEMPORALMENTE:
+¿Qué tal si aún no estás listo para confirmar ningún cambio? Stash es un 
+estado que tenemos como intermedio. Para esto debemos ir a alguna de nuestras
+ramas y usando el comando git stash que nos permite hacer cambios, pero no confirmarlos.
+
+git stash: es otro de los limbos, como el staging area. Para agregar los cambios estos deben estar en el staging area.
+git stash list: nos muestra la lista de stash que tengamos.
+git stash drop stash@{numero}: nos permite borrar un stash.
+git stash apply: aplicamos el último cambio

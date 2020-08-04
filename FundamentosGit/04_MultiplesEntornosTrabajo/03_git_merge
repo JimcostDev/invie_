@@ -1,0 +1,17 @@
+los cambios realizados en otras ramas, en algun momento los queremos unir a la 
+master, para ello usamos git merge (mezclar ramas).
+
+En este material nos vamos a concentrar en mezclar ramas y resolver conflictos. 
+Lo primero que tengo que hacer para mezclar ramas es pararme sobre la rama que quiero mezclar.
+Para mezclar los cambios deberíamos usar el comando git merge. Las instrucciones sería 
+pararnos desde la rama que queremos mezclar y hacer un git merge con la rama que pretendemos usar.
+
+
+
+1.ubicarnos en la rama que vamos aplicar los cambios (master)
+--mezclar mis cambios 
+git merge <nombre_rama>
+Luego de hacer un merge, pueden observar que luego de updating les ofrece un hash, 
+si copian los primero 7 digitos, y le hacen un git diff, les mostrará de igual forma 
+los cambios añadidos de dicho commit a dicha rama seleccionada.
+b29b987

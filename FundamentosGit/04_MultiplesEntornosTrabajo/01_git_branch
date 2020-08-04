@@ -1,0 +1,17 @@
+Las ramas son muy importantes si quieres trabajar con un equipo y no quieres
+tocar la rama master para no crear conflictos,
+
+--crear rama
+git branch <nombre_rama>
+
+--listar ramas
+git branch -l
+
+--borrar rama
+git branch -d <nombre_rama>
+
+--borrar forzadamente
+git branch -D <nombre_rama>
+
+--renombrar rama
+git branch -m <nombre_rama_actual> <nombre_rama_nueva>

@@ -1,0 +1,21 @@
+Ya sabes crear y eliminar ramas, ahora vamos a aprender a movernos dentro de ellas.
+Para esto vamos a usar git checkout. Usando este comando vamos a poder dirigirnos 
+específicamente a esa rama. También podemos usar el SHA-1 para identificar la rama que 
+queremos ver. En este caso no estamos borrando nada, sino solo revisando el estado de 
+nuestro proyecto en ese momento.
+
+¿Cuál es la diferencia entre git reset y git checkout?
+Con git chekcout podemos movernos en el tiempo, pero no borramos nada de los demás commits 
+que ya hemos creado.Uno de los usos más importantes de este comando es cazar bugs o verificar 
+el estado de nuestro proyecto en determinados momentos. Además, podemos crear ramas con git 
+checkout, para esto debemos usar -b y esto nos representa un atajo para crear una rama y además 
+moverte a ella.
+
+--moverme entre ramas
+git checkout <nombre_rama>
+
+--moverme entre commits
+git checkout <sha-1>
+
+--crear rama y moverme automaticamente a ella
+git checkout -b <nombre_rama>

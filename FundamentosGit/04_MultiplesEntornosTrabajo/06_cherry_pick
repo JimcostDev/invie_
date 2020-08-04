@@ -1,0 +1,7 @@
+Cherry pick eligiendo commits selectivamente:
+Si estás trabajando en una rama, pero de repente notas que hiciste un cambio en la 
+rama que no debías, para esto podemos usar cherry pick. Este comando nos puede salvar 
+la vida, ya que nos permite sacar cambios específicos de una rama y mezclarlos en otra.
+
+--sacar commit selectivamente, una vez situados en master y con el sha-1
+git cherry-pick <sha-1>
