@@ -1,0 +1,6 @@
+Es simplemente tener una rama externa para evitar que los cambios se vayan directamente a master
+
+Un Pull Request es una solicitud para que el dueño del repositorio realice los cambios 
+que estas proponiendo. Estos nunca se hacen a la rama master, para evitar inconvenientes.
+
+Es la base de la colaboración Open Source en github 😛

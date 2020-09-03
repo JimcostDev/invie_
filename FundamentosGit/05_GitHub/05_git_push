@@ -1,0 +1,15 @@
+Para enviar nuestro código al repositorio remoto vamos a usar el comando git push. 
+Así logramos que otras personas tengan acceso a nuestro proyecto.
+Cuando esto termine tendremos acceso a nuestro trabajo desde la plataforma de GitHub.
+Lo primero que debemos hacer es enviar nuestros tags en el proyecto.
+también recordemos que podemos eviar ramas, lo que también podemos hacer a 
+través del uso del comando git push [nombre de la rama].
+
+--Asi subimos nuestros cambios a github:
+git push origin master
+
+--Tambien podemos enviar los tags:
+git push origin master --tags
+
+--Podemos enviar otras ramas:
+git push origin [otra_rama]

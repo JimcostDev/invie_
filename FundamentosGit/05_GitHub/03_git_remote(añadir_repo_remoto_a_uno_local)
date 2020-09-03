@@ -1,0 +1,15 @@
+Tenemos que crear una conexión entre tu repositorio local y 
+tu repositorio remoto para que puedas compartirlo con la comunidad. 
+Para esto vamos a usar un nuevo comando que en este caso es git remote. 
+Por convención lo nombramos “origin”. Para borrarlo podemos 
+usar git remote remove y el nombre del repositorio.
+
+--Conecta un repositorio con nuestro equipo local.
+git remote add origin [URL:SSH/HTTPS] 
+
+-- Lista las conexiones existentes.
+git remote -v 
+
+--Elimina una conexión con algún repositorio.
+git remote remove [origin] 
+

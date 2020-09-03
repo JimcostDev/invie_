@@ -1,0 +1,6 @@
+GitHub permite usar templates a la hora de generar Pull Request
+
+Crear archivo llamado pull_request_template.md
+Definir los lineamientos usando sintaxis markdown
+Hacer commit
+Ahora todo será mas ordenado cuando generen contribuciones a tu proyecto.

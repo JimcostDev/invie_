@@ -1,0 +1,17 @@
+Si quieres mantener tu seguros dentro de GitHub es importante usar llaves 
+ssh con el comando ssh-keygen -t rsa -b 4096 -C "email@email.com".
+
+--generar llave ssh
+ssh-keygen -t rsa -b 4096 -C "rjak727@gmail.com"
+
+--Algo más fácil y rápido para usuarios Windows:
+
+En Windows, al instalar GIT, te descarga GIT GUI.
+Entonces abres GIT GUI, en el menú HELP, seleccionas 
+la opción show KEYS y allí ves la KEY PUBLICA de GIT en 
+tu pc si no la puedes generar con el boton GENERATE KEY.
+La copias y la compartes en GITHUB y eso es todo.
+
+--copiar nuestra llave ssh publica
+En Windows:
+clip < ~/.ssh/id_rsa.pub
