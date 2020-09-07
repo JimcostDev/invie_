@@ -1,2 +1,2 @@
-# invie_
-Aprendiendo git con Platzi by @LeonidasEsteban
+# invie
+Las guitarras más locas
